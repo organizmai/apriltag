@@ -1,9 +1,12 @@
 *.a
 *.so
+*.so.*
 *.o
 *.swp
 example/opencv_demo
 example/apriltag_demo
+opencv_demo
+apriltag_demo
 cmake_install.cmake
 CMakeFiles/*
 apriltag.pc
