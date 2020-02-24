@@ -4,4 +4,7 @@
 *.swp
 example/opencv_demo
 example/apriltag_demo
-
+cmake_install.cmake
+CMakeFiles/*
+apriltag.pc
+CMakeCache.txt
