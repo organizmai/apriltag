@@ -261,6 +261,10 @@ void apriltag_detector_destroy(apriltag_detector_t *td);
 // _detection_destroy and zarray_destroy yourself.
 zarray_t *apriltag_detector_detect(apriltag_detector_t *td, image_u8_t *im_orig);
 
+// Return Quads detected by the detector
+zarray_t *apriltag_quad_detector_detect(apriltag_detector_t *td, image_u8_t *im_orig);
+
+
 // Call this method on each of the tags returned by apriltag_detector_detect
 void apriltag_detection_destroy(apriltag_detection_t *det);
 
